@@ -1,0 +1,606 @@
+/* *{
+    padding: 20px 60px;
+} */
+
+.navbar{
+    background-color: white;
+    border-bottom: rgb(0, 0, 0);
+}
+.navbar-nav{
+    margin-left: 150px;
+}
+.main-head{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.main-head:active{
+    color: rgb(2, 183, 2);
+}
+.items:hover{
+    color: darkgreen;
+}
+
+.items:active{
+    color: rgb(2, 183, 2);
+
+}
+
+.mid-image-box {
+    background-image: url('./Images/Forest\ Scenery.jpg');
+    background-size: contain;
+    height: 500px;
+    position: relative;
+}
+
+.mid-overwriting {
+    /* z-index: 1; */
+    position: absolute;
+    color: rgb(255, 255, 255);
+    border: 2px double rgb(252, 185, 185);
+    backdrop-filter: blur(1px);
+    padding: 50px;
+    top: 330px;
+    left: 37%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ytravel h1 {
+    color: rgb(12, 150, 12);
+    text-align: center;
+    padding: 30px;
+}
+
+.ytravel p {
+    padding: 0px 50px;
+    text-align: justify;
+    color: rgb(0, 199, 0);
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.card:hover {
+    background-color: rgb(197, 254, 197);
+    box-shadow: 0px 0px 10px;
+    transition: all 0.15s;
+}
+
+.travelbanner2 {
+    position: relative;
+}
+
+.travelbanner2text {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgba(132, 132, 255, );
+    backdrop-filter: blur(2px);
+    border: 2px double rgb(252, 185, 185);
+    top: 458%;
+    left: 37%;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    z-index: 1000;
+    padding-left: 35px;
+    padding-right:35px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.card-text{
+    text-align: justify;
+    color: darkgreen;
+    font-size: small;
+}
+
+.package-img{
+    height: 252px;
+}
+
+.banner3head{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.tips{
+    text-align: justify;
+    padding: 0px 100px;
+    /* color: rgb(0, 199, 0); */
+
+}
+
+.carousel-img{
+    height: 550px;
+}
+.carousel-inner{
+    position: relative;
+
+}
+
+.carousel-overwriting{
+    position: absolute;
+    top: 90%;
+    left: 34%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    border-bottom: 1px double white;
+}
+
+.submmit-btn{
+    margin-left: 95px;
+}
+
+.form-control{
+    /* border-bottom: 1px solid green; */
+    box-shadow: 0px 0px 2px green;
+}
+.contact-container{
+    padding: 0px 300px;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .mid-image-box {
+        background-image: url('./Images/Forest\ Scenery.jpg');
+        background-size: cover;
+        height: 400px;
+        position: relative;
+    }
+
+    .mid-overwriting {
+        padding: 1rem;
+        top: 19.5rem;
+        left: 37%;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-box{
+        margin-bottom: 1rem;
+        margin-left: 10px;
+    }
+    .travelbanner2 {
+        height: 20rem;
+    }
+    .travelbanner2text {
+        top: 1159%;
+        left: 34.7%;
+        font-weight: 400;
+        font-size: 22px;
+        padding-left: 20px;
+        padding-right:20px ;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        color: black;
+        z-index: 1000;
+    }
+    .packages-row {
+        flex-wrap: wrap;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .package-img{
+        height: 150px;
+        width: 110px;
+        margin-left: 15px;
+    }
+
+    .tips{
+        padding: 0px 20px;
+    }
+    .carousel-img{
+        height: 400px;
+    }
+    .carousel-overwriting{
+        top: 85%;
+        left: 29%;
+        font-weight: bold;
+    }
+
+    .contact-container{
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .mid-image-box {
+        background-image: url('./Images/Forest\ Scenery.jpg');
+        background-size: contain;
+        height: 250px;
+        position: relative;
+    }
+
+    .mid-overwriting {
+        padding: 1rem;
+        top: 10rem;
+        left: 36.5%;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-box{
+        margin-bottom: 1rem;
+        margin-left: 10px;
+    }
+    .travelbanner2 {
+        height: 20rem;
+    }
+    .travelbanner2text {
+        top: 1132%;
+        left: 33.7%;
+        font-weight: 400;
+        font-size: 22px;
+        padding-left: 20px;
+        padding-right:20px ;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        color: black;
+        z-index: 1000;
+    }
+    .packages-row {
+        flex-wrap: wrap;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .package-img{
+        height: 150px;
+        width: 110px;
+        margin-left: 15px;
+    }
+
+    .tips{
+        padding: 0px 20px;
+    }
+    .carousel-img{
+        height: 300px;
+    }
+    .carousel-overwriting{
+        top: 85%;
+        left: 25%;
+        font-weight: bold;
+    }
+
+    .contact-container{
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .mid-image-box {
+        background-image: url('./Images/Forest\ Scenery.jpg');
+        background-size: contain;
+        height: 250px;
+        position: relative;
+    }
+
+    .mid-overwriting {
+        padding: 1rem;
+        top: 10rem;
+        left: 35%;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-box{
+        margin-bottom: 1rem;
+        margin-left: 10px;
+    }
+    .travelbanner2 {
+        height: 20rem;
+    }
+    .travelbanner2text {
+        top: 1132%;
+        left: 32.5%;
+        font-weight: 400;
+        font-size: 22px;
+        padding-left: 20px;
+        padding-right:20px ;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        color: black;
+        z-index: 1000;
+    }
+    .packages-row {
+        flex-wrap: wrap;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .package-img{
+        height: 150px;
+        width: 110px;
+        margin-left: 15px;
+    }
+
+    .tips{
+        padding: 0px 20px;
+    }
+    .carousel-img{
+        height: 300px;
+    }
+    .carousel-overwriting{
+        top: 85%;
+        left: 25%;
+        font-weight: bold;
+    }
+
+    .contact-container{
+        padding: 0px 0px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .mid-image-box {
+        background-image: url('./Images/Forest\ Scenery.jpg');
+        background-size: contain;
+        height: 250px;
+        position: relative;
+    }
+
+    .mid-overwriting {
+        padding: 1rem;
+        top: 10rem;
+        left: 35%;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-box{
+        margin-bottom: 1rem;
+        margin-left: 10px;
+    }
+    .travelbanner2 {
+        height: 20rem;
+    }
+    .travelbanner2text {
+        top: 1132%;
+        left: 32%;
+        font-weight: 400;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right:20px ;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        color: black;
+        z-index: 1000;
+    }
+    .packages-row {
+        flex-wrap: wrap;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .package-img{
+        height: 150px;
+        width: 110px;
+        margin-left: 15px;
+    }
+
+    .tips{
+        padding: 0px 20px;
+    }
+    .carousel-img{
+        height: 300px;
+    }
+    .carousel-overwriting{
+        top: 85%;
+        left: 25%;
+        font-weight: bold;
+    }
+
+    .contact-container{
+        padding: 0px 0px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .mid-image-box {
+        background-image: url('./Images/Forest\ Scenery.jpg');
+        background-size: contain;
+        height: 250px;
+        position: relative;
+    }
+
+    .mid-overwriting {
+        padding: 1rem;
+        top: 10rem;
+        left: 34%;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-box{
+        margin-bottom: 1rem;
+        margin-left: 10px;
+    }
+    .travelbanner2 {
+        height: 20rem;
+    }
+    .travelbanner2text {
+        top: 1140%;
+        left: 30%;
+        font-weight: 400;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right:20px ;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        color: black;
+        z-index: 1000;
+    }
+    .packages-row {
+        flex-wrap: wrap;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .package-img{
+        height: 150px;
+        width: 110px;
+        margin-left: 15px;
+    }
+
+    .tips{
+        padding: 0px 20px;
+    }
+    .carousel-img{
+        height: 300px;
+    }
+    .carousel-overwriting{
+        top: 85%;
+        left: 25%;
+        font-weight: bold;
+    }
+
+    .contact-container{
+        padding: 0px 0px;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .mid-image-box {
+        background-image: url('./Images/Forest\ Scenery.jpg');
+        background-size: contain;
+        height: 250px;
+        position: relative;
+    }
+
+    .mid-overwriting {
+        padding: 1rem;
+        top: 10rem;
+        left: 33.2%;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards-box{
+        margin-bottom: 1rem;
+        margin-left: 10px;
+    }
+    .travelbanner2 {
+        height: 20rem;
+    }
+    .travelbanner2text {
+        top: 1140%;
+        left: 30%;
+        font-weight: 400;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right:20px ;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        color: black;
+        z-index: 1000;
+    }
+    .packages-row {
+        flex-wrap: wrap;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .package-img{
+        height: 150px;
+        width: 110px;
+        margin-left: 15px;
+    }
+
+    .tips{
+        padding: 0px 20px;
+    }
+    .carousel-img{
+        height: 300px;
+    }
+    .carousel-overwriting{
+        top: 85%;
+        left: 24%;
+        font-weight: bold;
+    }
+
+    .contact-container{
+        padding: 0px 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+
+
+    .mid-overwriting {
+        left: 32%;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+
+
+    .mid-overwriting {
+        left: 31%;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+
+    .mid-overwriting {
+        left: 29.5%;
+    }
+    .travelbanner2text {
+        top: 1155%;
+        left: 24%;
+
+    }
+    .form-outline{
+        padding: 0px;
+        width: 300px;
+        /* border: 1px solid black; */
+    }
+    #form4Example3{
+        margin-left: -45px;
+    }
+    #form4Example2{
+        margin-left: -45px;
+    }
+    #form4Example1{
+        margin-left: -45px;
+    }
+    #contactId{
+        margin-top: -30px;
+    }
+}
