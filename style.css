@@ -2,26 +2,29 @@
     padding: 20px 60px;
 } */
 
-.navbar{
+.navbar {
     background-color: white;
     border-bottom: rgb(0, 0, 0);
 }
-.navbar-nav{
+
+.navbar-nav {
     margin-left: 150px;
 }
-.main-head{
+
+.main-head {
     text-decoration: none;
     color: darkgreen;
 }
 
-.main-head:active{
+.main-head:active {
     color: rgb(2, 183, 2);
 }
-.items:hover{
+
+.items:hover {
     color: darkgreen;
 }
 
-.items:active{
+.items:active {
     color: rgb(2, 183, 2);
 
 }
@@ -66,6 +69,11 @@
     padding-right: 130px;
 }
 
+#row3{
+    margin-top: 50px;
+}
+
+
 .card:hover {
     background-color: rgb(197, 254, 197);
     box-shadow: 0px 0px 10px;
@@ -91,24 +99,24 @@
     font-size: 25px;
     z-index: 1000;
     padding-left: 35px;
-    padding-right:35px ;
+    padding-right: 35px;
     padding-top: 20px;
     padding-bottom: 20px;
 
 
 }
 
-.card-text{
+.card-text {
     text-align: justify;
     color: darkgreen;
     font-size: small;
 }
 
-.package-img{
+.package-img {
     height: 252px;
 }
 
-.banner3head{
+.banner3head {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 50px;
@@ -116,22 +124,23 @@
     margin-top: 50px;
 }
 
-.tips{
+.tips {
     text-align: justify;
     padding: 0px 100px;
     /* color: rgb(0, 199, 0); */
 
 }
 
-.carousel-img{
+.carousel-img {
     height: 550px;
 }
-.carousel-inner{
+
+.carousel-inner {
     position: relative;
 
 }
 
-.carousel-overwriting{
+.carousel-overwriting {
     position: absolute;
     top: 90%;
     left: 34%;
@@ -140,15 +149,16 @@
     border-bottom: 1px double white;
 }
 
-.submmit-btn{
+.submmit-btn {
     margin-left: 95px;
 }
 
-.form-control{
+.form-control {
     /* border-bottom: 1px solid green; */
     box-shadow: 0px 0px 2px green;
 }
-.contact-container{
+
+.contact-container {
     padding: 0px 300px;
 }
 
@@ -173,50 +183,59 @@
         justify-content: center;
     }
 
-    .cards-box{
+    .cards-box {
         margin-bottom: 1rem;
         margin-left: 10px;
     }
+
+    #row3{
+        margin-top: 0px;
+    }
+
     .travelbanner2 {
         height: 20rem;
     }
+
     .travelbanner2text {
         top: 45%;
         left: 34.7%;
         font-weight: 400;
         font-size: 22px;
         padding-left: 20px;
-        padding-right:20px ;
+        padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 0px;
         color: white;
         z-index: 1000;
     }
+
     .packages-row {
         flex-wrap: wrap;
         padding-left: 70px;
         padding-right: 70px;
     }
 
-    .package-img{
+    .package-img {
         height: 150px;
         width: 110px;
         margin-left: 15px;
     }
 
-    .tips{
+    .tips {
         padding: 0px 20px;
     }
-    .carousel-img{
+
+    .carousel-img {
         height: 400px;
     }
-    .carousel-overwriting{
+
+    .carousel-overwriting {
         top: 85%;
         left: 29%;
         font-weight: bold;
     }
 
-    .contact-container{
+    .contact-container {
         padding: 0px 0px;
     }
 }
@@ -241,50 +260,55 @@
         justify-content: center;
     }
 
-    .cards-box{
+    .cards-box {
         margin-bottom: 1rem;
         margin-left: 10px;
     }
+
     .travelbanner2 {
         height: 20rem;
     }
+
     .travelbanner2text {
         top: 45%;
         left: 33.7%;
         font-weight: 400;
         font-size: 22px;
         padding-left: 20px;
-        padding-right:20px ;
+        padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 0px;
         color: white;
         z-index: 1000;
     }
+
     .packages-row {
         flex-wrap: wrap;
         padding-left: 70px;
         padding-right: 70px;
     }
 
-    .package-img{
+    .package-img {
         height: 150px;
         width: 110px;
         margin-left: 15px;
     }
 
-    .tips{
+    .tips {
         padding: 0px 20px;
     }
-    .carousel-img{
+
+    .carousel-img {
         height: 300px;
     }
-    .carousel-overwriting{
+
+    .carousel-overwriting {
         top: 85%;
         left: 25%;
         font-weight: bold;
     }
 
-    .contact-container{
+    .contact-container {
         padding: 0px 0px;
     }
 }
@@ -309,53 +333,59 @@
         justify-content: center;
     }
 
-    .cards-box{
+    .cards-box {
         margin-bottom: 1rem;
         margin-left: 10px;
     }
+
     .travelbanner2 {
         height: 20rem;
     }
+
     .travelbanner2text {
         top: 45%;
         left: 32.5%;
         font-weight: 400;
         font-size: 22px;
         padding-left: 20px;
-        padding-right:20px ;
+        padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 0px;
         color: white;
         z-index: 1000;
     }
+
     .packages-row {
         flex-wrap: wrap;
         padding-left: 70px;
         padding-right: 70px;
     }
 
-    .package-img{
+    .package-img {
         height: 150px;
         width: 110px;
         margin-left: 15px;
     }
 
-    .tips{
+    .tips {
         padding: 0px 20px;
     }
-    .carousel-img{
+
+    .carousel-img {
         height: 300px;
     }
-    .carousel-overwriting{
+
+    .carousel-overwriting {
         top: 85%;
         left: 25%;
         font-weight: bold;
     }
 
-    .contact-container{
+    .contact-container {
         padding: 0px 0px;
     }
 }
+
 @media only screen and (max-width: 700px) {
     .mid-image-box {
         background-image: url('./Images/Forest\ Scenery.jpg');
@@ -376,53 +406,59 @@
         justify-content: center;
     }
 
-    .cards-box{
+    .cards-box {
         margin-bottom: 1rem;
         margin-left: 10px;
     }
+
     .travelbanner2 {
         height: 20rem;
     }
+
     .travelbanner2text {
         top: 45%;
         left: 32%;
         font-weight: 400;
         font-size: 20px;
         padding-left: 20px;
-        padding-right:20px ;
+        padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 0px;
         color: white;
         z-index: 1000;
     }
+
     .packages-row {
         flex-wrap: wrap;
         padding-left: 70px;
         padding-right: 70px;
     }
 
-    .package-img{
+    .package-img {
         height: 150px;
         width: 110px;
         margin-left: 15px;
     }
 
-    .tips{
+    .tips {
         padding: 0px 20px;
     }
-    .carousel-img{
+
+    .carousel-img {
         height: 300px;
     }
-    .carousel-overwriting{
+
+    .carousel-overwriting {
         top: 85%;
         left: 25%;
         font-weight: bold;
     }
 
-    .contact-container{
+    .contact-container {
         padding: 0px 0px;
     }
 }
+
 @media only screen and (max-width: 650px) {
     .mid-image-box {
         background-image: url('./Images/Forest\ Scenery.jpg');
@@ -443,54 +479,60 @@
         justify-content: center;
     }
 
-    .cards-box{
+    .cards-box {
         margin-bottom: 1rem;
         margin-left: 10px;
     }
+
     .travelbanner2 {
         height: 20rem;
     }
+
     .travelbanner2text {
         top: 45%;
         left: 30%;
         font-weight: 400;
         font-size: 20px;
         padding-left: 20px;
-        padding-right:20px ;
+        padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 0px;
         color: white;
         z-index: 1000;
     }
+
     .packages-row {
         flex-wrap: wrap;
         padding-left: 70px;
         padding-right: 70px;
     }
 
-    .package-img{
+    .package-img {
         height: 150px;
         width: 110px;
         margin-left: 15px;
     }
 
-    .tips{
+    .tips {
         padding: 0px 20px;
     }
-    .carousel-img{
+
+    .carousel-img {
         height: 300px;
     }
-    .carousel-overwriting{
+
+    .carousel-overwriting {
         top: 85%;
         left: 25%;
         font-weight: bold;
     }
 
-    .contact-container{
+    .contact-container {
         padding: 0px 0px;
     }
-    
+
 }
+
 @media only screen and (max-width: 600px) {
     .mid-image-box {
         background-image: url('./Images/Forest\ Scenery.jpg');
@@ -511,53 +553,62 @@
         justify-content: center;
     }
 
-    .cards-box{
+    #row2 {
+        margin-top: -47px;
+    }
+
+    .cards-box {
         margin-bottom: 1rem;
         margin-left: 10px;
     }
+
     .travelbanner2 {
         height: 20rem;
     }
+
     .travelbanner2text {
         top: 45%;
         left: 30%;
         font-weight: 400;
         font-size: 20px;
         padding-left: 20px;
-        padding-right:20px ;
+        padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 0px;
         color: white;
         z-index: 1000;
     }
+
     .packages-row {
         flex-wrap: wrap;
         padding-left: 70px;
         padding-right: 70px;
     }
 
-    .package-img{
+    .package-img {
         height: 150px;
         width: 110px;
         margin-left: 15px;
     }
 
-    .tips{
+    .tips {
         padding: 0px 20px;
     }
-    .carousel-img{
+
+    .carousel-img {
         height: 300px;
     }
-    .carousel-overwriting{
+
+    .carousel-overwriting {
         top: 85%;
         left: 24%;
         font-weight: bold;
     }
 
-    .contact-container{
+    .contact-container {
         padding: 0px 0px;
     }
-    
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -568,6 +619,7 @@
     }
 
 }
+
 @media only screen and (max-width: 500px) {
 
 
@@ -576,31 +628,38 @@
     }
 
 }
+
 @media only screen and (max-width: 450px) {
 
     .mid-overwriting {
         left: 29.5%;
     }
+
     .travelbanner2text {
         top: 45%;
         left: 24%;
 
     }
-    .form-outline{
+
+    .form-outline {
         padding: 0px;
         width: 300px;
         /* border: 1px solid black; */
     }
-    #form4Example3{
+
+    #form4Example3 {
         margin-left: -45px;
     }
-    #form4Example2{
+
+    #form4Example2 {
         margin-left: -45px;
     }
-    #form4Example1{
+
+    #form4Example1 {
         margin-left: -45px;
     }
-    #contactId{
+
+    #contactId {
         margin-top: -30px;
     }
 }
